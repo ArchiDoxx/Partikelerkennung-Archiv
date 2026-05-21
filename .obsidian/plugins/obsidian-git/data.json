@@ -43,7 +43,7 @@
   "lineAuthor": {
     "show": true,
     "followMovement": "inactive",
-    "authorDisplay": "initials",
+    "authorDisplay": "full",
     "showCommitHash": true,
     "dateTimeFormatOptions": "date",
     "dateTimeFormatCustomString": "YYYY-MM-DD HH:mm",
@@ -61,7 +61,7 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
-    "lastShownAuthorDisplay": "initials",
+    "lastShownAuthorDisplay": "full",
     "lastShownDateTimeFormatOptions": "date"
   }
 }
