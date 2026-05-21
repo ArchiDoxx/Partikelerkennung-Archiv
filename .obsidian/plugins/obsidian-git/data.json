@@ -1,7 +1,7 @@
 {
-  "commitMessage": "",
+  "commitMessage": "[ENTER COMMIT MESSAGE HERE]",
   "autoCommitMessage": "vault backup: {{date}}",
-  "commitMessageScript": "[ENTER COMMIT MESSAGE HERE]",
+  "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 300,
   "autoPushInterval": 0,
@@ -33,7 +33,7 @@
   "gitDir": "",
   "showFileMenu": true,
   "authorInHistoryView": "full",
-  "dateInHistoryView": true,
+  "dateInHistoryView": false,
   "diffStyle": "split",
   "hunks": {
     "showSigns": true,
@@ -41,10 +41,10 @@
     "statusBar": "colored"
   },
   "lineAuthor": {
-    "show": true,
+    "show": false,
     "followMovement": "inactive",
     "authorDisplay": "full",
-    "showCommitHash": true,
+    "showCommitHash": false,
     "dateTimeFormatOptions": "date",
     "dateTimeFormatCustomString": "YYYY-MM-DD HH:mm",
     "dateTimeTimezone": "viewer-local",
