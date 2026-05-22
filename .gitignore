@@ -5,3 +5,6 @@
 .DS_Store
 Thumbs.db
 copilot
+
+# KI-Agent-Kontext (lokale Konfiguration)
+.kimi/
