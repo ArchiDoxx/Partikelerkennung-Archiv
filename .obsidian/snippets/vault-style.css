@@ -1,0 +1,72 @@
+/* ===== ONSITE.AI — PARTIKELERKENNUNG-ARCHIV ===== */
+
+/* H1: groß, leicht, mit Trennlinie */
+.markdown-rendered h1 {
+  font-size: 2.2em;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.4em;
+  margin-bottom: 1em;
+}
+
+/* Messungs-Tabelle */
+.markdown-rendered table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.markdown-rendered table th {
+  background: var(--background-secondary);
+  font-weight: 600;
+  font-size: 0.82em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 8px 12px;
+  border: 1px solid var(--background-modifier-border);
+}
+
+.markdown-rendered table td {
+  padding: 10px 12px;
+  border: 1px solid var(--background-modifier-border);
+  vertical-align: middle;
+}
+
+/* Bild-Spalten zentriert */
+.markdown-rendered table td:nth-child(1),
+.markdown-rendered table td:nth-child(2) {
+  text-align: center;
+  width: 22%;
+}
+
+/* Infodaten-Spalte */
+.markdown-rendered table td:nth-child(3) {
+  font-size: 0.88em;
+  line-height: 1.75;
+}
+
+/* Callout: Familien-Dropdown */
+.callout[data-callout="info"] {
+  background: var(--background-secondary);
+  border-left: 3px solid var(--color-blue);
+}
+
+/* Callout: Links/Ähnlichkeiten */
+.callout[data-callout="note"] {
+  background: var(--background-secondary);
+  border-left: 3px solid #e07b39;
+}
+
+/* HR-Trenner */
+.markdown-rendered hr {
+  border: none;
+  border-top: 1px solid var(--background-modifier-border);
+  margin: 1.8em 0;
+}
+
+/* Tag-Pills */
+.tag {
+  border-radius: 4px;
+  padding: 1px 7px;
+  font-size: 0.78em;
+}

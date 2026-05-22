@@ -482,7 +482,7 @@
   "perplexityApiKey": "",
   "supadataApiKey": "",
   "enableLexicalBoosts": true,
-  "suggestedDefaultCommands": false,
+  "suggestedDefaultCommands": true,
   "autonomousAgentMaxIterations": 10,
   "autonomousAgentEnabledToolIds": [
     "localSearch",
